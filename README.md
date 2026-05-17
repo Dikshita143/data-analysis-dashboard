@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sales, Employee & Customer Data Analysis
 
 A professional, single-page analytics dashboard built with Python and Streamlit. Upload any CSV file and the system automatically generates interactive charts, key insights, predictive analysis, and a built-in data assistant.
@@ -77,3 +78,6 @@ The browser will open automatically at `http://localhost:8501`.
 This project is developed for educational and internship demonstration purposes.
 
 Made by **Dikshita**
+=======
+# data-analysis-dashboard
+>>>>>>> 9adcf2a72858675d1eb60e154e47b3fc526d37bd
