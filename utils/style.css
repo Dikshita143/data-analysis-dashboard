@@ -1,0 +1,204 @@
+/* === PREMIUM DARK THEME === */
+
+/* Global Background */
+.stApp {
+    background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 50%, #16213e 100%);
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.main .block-container {
+    padding-top: 2rem;
+    max-width: 1200px;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 60px 20px 30px;
+}
+.hero-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.85);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Upload Card */
+.upload-card {
+    background: transparent;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 700px;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+/* Center File Uploader */
+[data-testid="stFileUploader"] {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Section Titles */
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 50px 0 30px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Feature Cards */
+.feature-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #333;
+    margin-bottom: 20px;
+}
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+}
+.feature-icon {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 0 auto 15px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    text-align: center;
+}
+.feature-card h4 {
+    color: #5b4dc7;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.feature-card p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* KPI / Metric Cards */
+.metric-card {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 25px;
+    border: 1px solid rgba(255,255,255,0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-bottom: 15px;
+}
+.metric-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255,255,255,0.5);
+}
+.metric-card h6 {
+    color: rgba(255,255,255,0.8);
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+}
+.metric-card h3 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    color: rgba(255,255,255,0.6);
+    font-size: 0.85rem;
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #1a1c2e 0%, #2d1b4e 100%);
+}
+section[data-testid="stSidebar"] h2 {
+    color: #d4b8ff;
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+}
+
+/* File Uploader */
+[data-testid="stFileUploader"] {
+    background: rgba(255,255,255,0.9);
+    border-radius: 12px;
+    padding: 20px;
+    border: 2px dashed #764ba2;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    color: white;
+}
+
+/* Input Fields */
+.stTextInput > div > div > input {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: white;
+    border-radius: 10px;
+}
+
+/* Radio */
+.stRadio > div { color: white; }
+
+/* Dataframe */
+[data-testid="stDataFrame"] {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Success/Info boxes */
+.stSuccess, .stInfo {
+    border-radius: 12px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-title { font-size: 1.8rem; }
+    .hero-subtitle { font-size: 1rem; }
+    .upload-card { padding: 20px; margin: 15px; }
+    .feature-card { padding: 20px 15px; }
+    .section-title { font-size: 1.5rem; }
+}
